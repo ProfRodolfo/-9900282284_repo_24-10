@@ -1,0 +1,32 @@
+
+body {
+    padding-bottom: 500px;
+}
+
+p {
+    color: blueviolet;
+}
+
+/* 08 - Class */
+.paragrafo {
+    background-color: #000;
+    color: aqua;
+    padding: 5px;
+}
+/*  09 - Utilizando ID  */
+#exclive-title {
+    background-color: purple;
+    color: yellow;
+    padding: 10px;
+    font-size: 40px;
+}
+/* 10 multiplas regra */
+h2 {
+    border-bottom: 2px solid red;
+}
+.titulo {
+    border-bottom: 3px solid blue;
+}
+#algum-titulo {
+    border-bottom: 4px solid green;
+}
