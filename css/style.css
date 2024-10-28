@@ -3,9 +3,9 @@ body {
     padding-bottom: 500px;
 }
 
-p {
+/* p {
     color: blueviolet;
-}
+} */
 
 /* 08 - Class */
 .paragrafo {
@@ -143,6 +143,7 @@ h2 {
     padding-right: 20px;
     padding-bottom: 40px;
 }
+/* 25 shorthand padding  */
 .shorthand-padding {
     background-color: #444;
     padding: 6px 12px 18px 24px;
@@ -151,4 +152,19 @@ h2 {
     background-color: #555;
     padding: 10px 20px 10px 20px; 
     /* padding: 10px 20px; */
+}
+/* 26 - padding com widht */
+.without-border-box {
+    background-color: #444;
+    color: #fff;
+    width: 400px;
+    padding: 50px;
+}
+
+.border-box {
+    background-color: #666;
+    color: #fff;
+    width: 400px;
+    padding: 50px;
+    box-sizing: border-box;
 }
