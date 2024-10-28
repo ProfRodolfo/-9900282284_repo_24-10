@@ -37,3 +37,87 @@ h2 {
 }
 
 /* 12 hex */
+
+.hex {
+    color: #55a398;
+}
+
+.hex-2 {
+    color: #00eaff;
+}
+
+/*  13 hex resumido*/
+
+.simple-hex {
+    /* color: #333333; */
+    color: #333;
+
+}
+.simple-hex-2 {
+    /* color: #aa55ff; */
+    color: #a5f;
+}
+
+/* 14 rgb  */
+.rgb {
+    color: rgb(255, 0, 0)
+}
+
+/* 15 rgba  */
+.rgba {
+    color: rgba(255, 0, 0, 0.2)
+}
+
+/* 16 hsl  */
+.hsl {
+    color: hsl(201, 82%, 48%)
+}
+/* 17 background - color */
+.bg {
+    background-color: #000;
+    color: yellow;
+}
+
+.bg-2 {
+    background-color: rgb(200, 20, 40);
+    color: #0eaf;
+}
+/* 18 opacidade no bg */
+.bg-opacity {
+    background-color: green;
+    opacity: 0.2;
+}
+/* 19 RGBA com opacidade */ 
+.rgba-opacity {
+    background-color: rgba(90, 120, 20, 0.2);
+}
+
+/* 20 bg image */
+.bg-image{
+    background-image: url("../img/nature.jpg");
+    color: white;
+    padding: 10px;
+    margin: 0;
+}
+
+/* 21 Centralizar img de bg */
+.not-centered-bg,
+.centered-bg {
+    height: 400px;
+    width: 400px;
+    background-image: url("../img/bridge.jpg");
+}
+
+.centered-bg {
+    background-position: center;
+}
+/* 22 Largura e altrua */
+.height-width {
+    height: 200px;
+    width: 100px;
+    background-color: red;
+}
+.height-width-2 {
+    height: 300px;
+    background-color: #333;
+}
