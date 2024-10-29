@@ -231,3 +231,16 @@ h2 {
     width: 200px;
     height: 400px;
 }
+
+/* 32 - desafio */
+/* 33 */
+.text-aligned {
+    text-align: right; 
+}
+.container-center {
+    text-align: justify;
+    width: 300px;
+    border: 1px dotted red;
+    padding: 20px;
+   
+}
