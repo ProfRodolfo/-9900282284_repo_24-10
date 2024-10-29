@@ -10,7 +10,7 @@ O objetivo deste desafio é aplicar estilos CSS a um elemento HTML utilizando o 
 2. **Dentro dessa `<div>`**, adicione um título `<h2>` com a classe `challenge-title` e o texto "Vamos estilizar o box model".
 3. **Estilize o elemento `<div>`** utilizando as seguintes propriedades CSS:
    - **Margem**: 15px
-   - **Preenchimento**: 15px
+   - **Espaçamento interno**: 15px
    - **Borda**: 5px sólida com a cor `#459`
    - **Cor de fundo**: `#123`
    - **Contorno**: 5px sólido com a cor `#952`
