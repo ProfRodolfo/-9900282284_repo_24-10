@@ -168,3 +168,39 @@ h2 {
     padding: 50px;
     box-sizing: border-box;
 }
+
+/* 27 - border */
+
+.border{
+    border:  5px solid red; 
+    padding: 10px;
+}
+
+.border-2 {
+    border: 2px dotted #931;
+    padding: 25px;
+}
+/* 28 - bordas individuais */
+
+.border-left {
+    border-left: 3px solid red;
+}
+
+.border-bottom {
+    border-bottom: 5px double #399;
+}
+/* 29 */
+.rounded-p {
+    border: 4px solid green;
+    background-color: blueviolet;
+    color: blue;
+    padding: 15px;
+    border-radius: 15px;
+}
+.rounded-p-2 {
+    border: 2px solid burlywood;
+    background-color: #399;
+    color: greenyellow;
+    padding: 15px;
+    border-radius: 25px;
+}
