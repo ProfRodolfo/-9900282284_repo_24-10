@@ -242,5 +242,119 @@ h2 {
     width: 300px;
     border: 1px dotted red;
     padding: 20px;
-   
+}
+
+/* 34 */
+.underline {
+    text-decoration: underline;
+}
+
+.line-trough{
+    text-decoration: line-through;
+}
+
+.remover-underline{
+    text-decoration: none;
+}
+/* 35 */
+
+.upper{
+text-transform: uppercase;
+}
+.lower{
+text-transform: lowercase;
+}
+
+/* 36 */
+.spacing{
+    letter-spacing: 5px;
+}
+/* 37 */
+.f1{
+    font-family: Georgia;
+}
+.f2{
+    font-family: Helvetica;
+}
+.f3{
+    font-family: "Courier New";
+}
+.f4{
+    font-family: cursive;
+}
+.f5{
+    font-family: fantasy;
+}
+/* 38 */
+.italic{
+    font-style: italic;
+}
+.oblique{
+    font-style: oblique;
+}
+/* 39 */
+.thin,
+.bold,
+.bolder{
+    font-family: Helvetica;
+}
+.thin{
+    font-weight: 100;
+}
+.bold{
+    font-weight: 600;
+}
+.bolder{
+    font-weight: 900;
+}
+/* 40 */
+.small{
+    font-size: 6px;
+}
+.big{
+    font-size: 50px;
+}
+/* 41 */
+.inline-box{
+    background-color: #4f8;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    display: inline-block;
+    text-align: center;
+}
+.block{
+    background-color: #333;
+    color: #fff; 
+    margin: 10px;
+    display: block;   
+    text-align: center; 
+    width: 500px;
+    height: 150px;
+}
+/* 42 */
+
+.invisible{
+    display: none;
+}
+/* 43 */
+.static{
+    background-color: #4f8;
+    width: 100px;
+    height: 100px;
+    top: 100px;
+    color: #fff;
+    position: static;
+    margin: 25px;
+}
+/* 44 */
+.relative{
+    position: relative;
+    background-color: #333;
+    color: #fff;
+    width: 100px;
+    height: 100px;
+    top: 100px;
+    left: 200px;
+    border: 2px solid red;
 }
