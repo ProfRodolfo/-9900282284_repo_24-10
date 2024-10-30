@@ -366,6 +366,48 @@ text-transform: lowercase;
     width: 100px;
     height: 100px;
     border: 2px solid red;
-    top: 10px;
+    top: 50px;
     left: 40px;
+}
+/* 46 */
+.relative-container{
+    width: 300px;
+    height: 300px;
+    border: 1px solid red;
+    margin-top: 120px;
+    position: relative;
+}
+.absolute-1,
+.absolute-2{
+    width: 50px;
+    height: 50px;
+    background-color: #399;
+    position: absolute;   
+}
+.absolute-1{
+    top: 10px;
+    left: 10px;
+}
+.absolute-2{
+    bottom: 10px;
+    right: 10px;
+}
+/* 47 */
+.fixed{
+    width: 30px;
+    height: 30px;
+    border: 1px solid red;
+    background-color: #a5f;
+    position: fixed;
+    top: 50px;
+    right: 100px;
+}
+/* 48 */
+.sticky{
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+    background-color: #994;
+    position: sticky;
+    top: 10px;
 }
