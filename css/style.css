@@ -358,3 +358,14 @@ text-transform: lowercase;
     left: 200px;
     border: 2px solid red;
 }
+/* 45 */
+.absolute{
+    position:absolute; 
+    background-color: #399;
+    color: #fff;
+    width: 100px;
+    height: 100px;
+    border: 2px solid red;
+    top: 10px;
+    left: 40px;
+}
